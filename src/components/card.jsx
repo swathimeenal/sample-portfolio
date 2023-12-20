@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Card(props) {
-  return <div className="col-lg-4 col-sm-6 mb-4" key={i}>
+  return <div className="col-lg-4 col-sm-6 mb-4" >
     <div className="card h-100">
       <a href="#"><img className="card-img-top" src="https://via.placeholder.com/700x400" alt=""/></a>
       <div className="card-body">
