@@ -1,5 +1,5 @@
 import React from 'react' //rfce
-import card from './components/card'
+import Card from './components/Card'
 
 function App() {
   let data = 
@@ -25,7 +25,7 @@ function App() {
 <div className="row">
  {
   data.map((e,i)=>{
-    return<card carddata={e} key={i}/>
+    return<Card CardData={e} key={i}/>
   })
   } 
   </div>
